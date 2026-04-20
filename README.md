@@ -1,7 +1,6 @@
 # ✈️ FinPilot AI — Your Personal Finance Copilot
 
-> Built as a Capstone Project for the Agentic Artificial Intelligence program at KIIT University.
-
+> Built as a Capstone Project for the Agentic Artificial Intelligence program.
 FinPilot is an AI-powered financial assistant that actually understands your spending. Upload your expense data, ask it anything in plain English, and it figures out what you need — whether that's a breakdown of where your money went, a prediction for next month, savings tips, or unusual spending alerts.
 
 It doesn't just answer questions. It picks the right tool, runs the analysis, and shows you exactly how it arrived at the answer. That's the agentic part.
@@ -112,19 +111,9 @@ finpilot/
 | AI / LLM | OpenRouter API (GPT-3.5-Turbo via REST) |
 | Config | python-dotenv |
 
-No LangChain. No heavy frameworks. Every component is plain Python and easy to read.
+ No heavy frameworks. Every component is plain Python and easy to read.
 
----
-
-## Deploying to Streamlit Cloud (free)
-
-1. Push this repo to GitHub (make sure `.env` is in `.gitignore` — it is)
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub
-3. Click **New app** → select your repo → set main file to `app.py`
-4. Under **Advanced settings**, add `OPENROUTER_API_KEY` as a secret
-5. Hit **Deploy** — your app will be live in about 2 minutes
-
----
+--
 
 ## Getting an API key
 
@@ -163,4 +152,4 @@ The goal was to show that agentic AI doesn't require complex frameworks — just
 
 ---
 
-*Built with Python, Streamlit, and way too much ₹ spent on coffee.*
+*Built with Python, Streamlit.
